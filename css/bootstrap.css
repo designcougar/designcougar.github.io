@@ -240,6 +240,7 @@ th {
   }
   .navbar {
     display: none;
+    
   }
   .table td,
   .table th {
@@ -1222,6 +1223,7 @@ ul,
 ol {
   margin-top: 0;
   margin-bottom: 10px;
+    
 }
 ul ul,
 ol ul,
@@ -3780,6 +3782,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar-header {
     float: left;
+      
   }
 }
 .navbar-collapse {
@@ -4405,6 +4408,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   margin: 20px 0;
   text-align: center;
   list-style: none;
+    
 }
 .pager li {
   display: inline;
@@ -5376,6 +5380,7 @@ button.close {
   overflow: hidden;
 }
 .modal {
+
   position: fixed;
   top: 0;
   right: 0;
@@ -5412,6 +5417,7 @@ button.close {
 .modal-content {
   position: relative;
   background-color: #fff;
+    opacity: 0.2;
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
   border: 1px solid #999;
@@ -5451,8 +5457,11 @@ button.close {
   line-height: 1.42857143;
 }
 .modal-body {
+
   position: relative;
   padding: 15px;
+   
+    
 }
 .modal-footer {
   padding: 15px;
@@ -5735,6 +5744,7 @@ button.close {
 .carousel-inner > .next,
 .carousel-inner > .prev {
   display: block;
+    
 }
 .carousel-inner > .active {
   left: 0;
