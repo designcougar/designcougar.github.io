@@ -181,6 +181,16 @@
 .fa-inverse {
   color: #ffffff;
 }
+.blueIt{
+  color: #4d9aa3;
+}
+.greenIt {
+  color: #50ae5f;
+}
+
+.redIt {
+  color: #a34d4d;
+}
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
 .fa-glass:before {
