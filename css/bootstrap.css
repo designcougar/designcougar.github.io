@@ -5923,6 +5923,7 @@ button.close {
   position: absolute;
   top: 0;
   bottom: 0;
+ margin-bottom:30px;    
   left: 0;
   width: 15%;
   font-size: 20px;
@@ -5992,7 +5993,7 @@ button.close {
 }
 .carousel-indicators {
   position: absolute;
-  bottom: 10px;
+  bottom: 30px;
   left: 50%;
   z-index: 15;
   width: 60%;

@@ -3,6 +3,7 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+
 .text-muted {
     color: #777;
 }
@@ -868,21 +869,26 @@ img::-moz-selection {
 }
 
 
-#video {
-	position: relative;
-	overflow: hidden;
+
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
 }
-
-
-
-#video-background { 
-  position: absolute;
-  bottom: 0px; 
-  right: 0px; 
-  min-width: 100%; 
-  min-height: 100%; 
-  width: auto; 
-  height: auto; 
-  z-index: -1000; 
-  overflow: hidden
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
